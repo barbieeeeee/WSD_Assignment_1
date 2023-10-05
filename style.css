@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li+li {
+    margin-top: 5px;
+}
+
+html {
+    color: rgb(1, 27, 35);
+    font-family: "Josefin Sans";
+}
+
+body {
+    padding-top: 10px;
+    background-color: grey;
+    padding-left: 30px;
+
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: #cb0f5a;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-top: 1px solid #cb0f5a;
+    border-bottom: 1px solid #cb0f5a;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #0dc0d4;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section {
+
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.profile {
+    text-align: center;
+
+}
+
+.profile img {
+    border-radius: 100000px;
+    width: 350px;
+    height: 350px;
+}
+
+.profile p {
+    color: #cb0f5a;
+    margin-bottom: 20px;
+
+}
+
+.contact li {
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid #0dc0d4;
+    border-bottom: 1px solid #0dc0d4;
+
+}
+
+.social li {
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid #0dc0d4;
+    border-bottom: 1px solid #0dc0d4;
+}
+
+.skills ol {
+    list-style: none;
+}
+
+.skills ul {
+    list-style: square;
+}
+
+.skills ol {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 60px 700px;
+}
+
+.duration {
+    color: #cb0f5a
+}
+
+.content {
+    border-left: 1px solid #cb0f5a;
+    padding-left: 25px;
+    margin-left: 25px;
+
+}
+
+.ins {
+    background-color: #cb0f5a;
+    color: #ffffff;
+}
+
+.total {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.sideA {
+    background-color: #4d474900;
+}
+
+.sideB {
+    padding-right: 100px;
+}
+
+.nav a {
+    text-align: center;
+    color: yellow;
+    display: inline-block;
+    border: 5px solid black;
+    height: 40px;
+    width: 145px;
+    padding: 10px;
+
+
+}
+
+.nav div {
+    align-items: center;
+
+}
+
+footer div {
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
