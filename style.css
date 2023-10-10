@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-li+li {
-    margin-top: 5px;
-}
 
 html {
     color: rgb(1, 27, 35);
@@ -62,7 +59,10 @@ a {
 .profile {
     text-align: center;
 
+
+
 }
+
 
 .profile img {
     border-radius: 100000px;
@@ -76,15 +76,20 @@ a {
 
 }
 
-.contact li {
-    text-align: left;
-    padding: 10px;
-    border-top: 1px solid #0dc0d4;
-    border-bottom: 1px solid #0dc0d4;
+.myinfo li {
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    border: 5px solid #cb0f5a;
+    align-items: center;
 
 }
 
-.social li {
+.myinfo li :hover {
+    background-color: #0dc0d4;
+}
+
+.myinfo .social li {
     text-align: left;
     padding: 10px;
     border-top: 1px solid #0dc0d4;
@@ -151,6 +156,11 @@ a {
     width: 145px;
     padding: 10px;
 
+
+}
+
+.nav a:hover {
+    background-color: #cb0f5a;
 
 }
 
